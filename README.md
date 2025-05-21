@@ -38,7 +38,7 @@
 - Python 3.10 is insatlled on your Linux machine. (You can run `sudo apt install python3 python3-pip` to download Python)
 
 **How to use**:
-- `git clone https://github.com/katy-the-kat/discord-vps-creator.git`
+- `git clone https://github.com/NakshOpDev/discord-vps-creator`
 - `cd discord-vps-creator`
 - `apt install docker.io -y && apt install pip -y && pip3 install docker && pip3 install discord`
 - Compile the images using `docker build -t ubuntu-22.04-with-tmate -f Dockerfile1 . && docker build -t debian-with-tmate -f Dockerfile2 .` and wait for it to be done 
