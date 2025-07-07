@@ -40,7 +40,7 @@
 **How to use**:
 - `git clone https://github.com/NakshOpDev/discord-vps-creator`
 - `cd discord-vps-creator`
-- `apt install docker.io -y && apt install pip -y && pip3 install docker && pip3 install discord`
+- `apt install docker.io -y && apt install pip -y && pip3 install docker && pip3 install discord && systemctl start docker`
 - Compile the images using `docker build -t ubuntu-22.04-with-tmate -f Dockerfile1 . && docker build -t debian-with-tmate -f Dockerfile2 .` and wait for it to be done 
 - Edit .py file and paste the token where it says `TOKEN=`. You can get your bots token from [here](https://discord.dev). Edit the specified resources (if you want) to adjust how much resources are allocated per VPS.
 - Run the file by using `python3 v2.py` or `python3 v2.py` or `py v2.py`
